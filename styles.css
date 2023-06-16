@@ -1,0 +1,56 @@
+/******* GRID ****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400 px;
+    float: left;
+}
+
+/*****BASE******/
+#about,
+#work,
+#contact {
+    height: 600px;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******ABOUT****/
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+/****** HEADER *****/
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+
+}
